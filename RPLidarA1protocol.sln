@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPLidarA1protocol", "RPLidarA1protocol\RPLidarA1protocol.csproj", "{E382073F-6C68-428B-9114-9E6AB5ADAC4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPLidarA1Reader", "RPLidarA1Reader\RPLidarA1Reader.csproj", "{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D} = {E382073F-6C68-428B-9114-9E6AB5ADAC4D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Debug|x64.ActiveCfg = Debug|x64
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Debug|x64.Build.0 = Debug|x64
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Debug|x86.ActiveCfg = Debug|x86
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Debug|x86.Build.0 = Debug|x86
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Release|x64.ActiveCfg = Release|x64
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Release|x64.Build.0 = Release|x64
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{E382073F-6C68-428B-9114-9E6AB5ADAC4D}.Release|x86.Build.0 = Release|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Debug|x64.ActiveCfg = Debug|x64
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Debug|x64.Build.0 = Debug|x64
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Debug|x86.Build.0 = Debug|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Release|x64.ActiveCfg = Release|x64
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Release|x64.Build.0 = Release|x64
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Release|x86.ActiveCfg = Release|Any CPU
+		{DBDA03DD-3F0B-4C7F-A499-9312271D1A81}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA19E2FC-4AC2-4441-988C-44EDB45D7747}
+	EndGlobalSection
+EndGlobal
